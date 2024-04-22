@@ -15,6 +15,7 @@ public class ResultadosService {
 
     public List<Concurso> buscar(Integer bola1, Integer bola2, Integer bola3, Integer bola4, Integer bola5, Integer bola6) {
 //        return resultadosRepository.find(bola1, bola2, bola3, bola4, bola5, bola6);
-        return resultadosRepository.find(bola1);
+//        return resultadosRepository.find(bola1);
+        return resultadosRepository.findAll();
     }
 }
